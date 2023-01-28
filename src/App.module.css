@@ -1,0 +1,175 @@
+.mainContainer {
+  background-color: #FFFFFF;
+  box-shadow: 0px 40px 40px -10px rgba(201, 213, 225, 0.503415);
+  border-radius: 10px;
+  min-width: 327px;
+  max-width: 400px;
+}
+
+.drawers {
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  object-position: 0 -16px;
+  border-radius: 10px 10px 0 0;
+}
+
+.bottomContainer {
+  padding: 36px 32px 0;
+}
+
+.bottomContainer h1 {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #48556A;
+}
+
+.bottomContainer > p {
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.121875px;
+  color: #6E8098;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 16px 32px;
+}
+
+.profile > img {
+  margin-right: 16px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+/* .profileInfo */
+
+.profileName {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.121875px;
+  color: #48556A;
+}
+
+
+.profileDate {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.121875px;
+  color: #9DAEC2;
+}
+
+.shareButton {
+  margin-left: auto;
+  border: none;
+  border-radius: 50%;
+  background-color: #ECF2F8;
+  padding: 9.5px 8.5px;
+  z-index: 1;
+}
+
+.shareButton img {
+  width: 15px;
+  height: 13px;
+}
+
+.shareSection {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 16px 32px;
+  width: 100%;
+  height: 100%;
+  background-color: #48556A;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.shareSection p {
+  margin-right: 21px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #9DAEC2;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* .shareSection a */
+
+/* .shareSection a img */
+
+/* .arrow */
+
+@media screen and (min-width: 1000px) {
+  .mainContainer {
+    display: flex;
+    max-width: 730px;
+  }
+
+  .drawers {
+    width: 285px;
+    height: 280px;
+    object-position: 0 0;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .bottomContainer {
+    padding: 32px 40px 0;
+  }
+
+  .bottomContainer h1 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+  }
+
+  .profile {
+    padding: 0 40px;
+    margin-bottom: 32px;
+  }
+
+  .shareSection {
+    top: -80px;
+    left: 265px;
+    padding: 18px 36px;
+    width: auto;
+    height: auto;
+    box-shadow: 0px 10px 10px rgba(201, 213, 225, 0.503415);
+    border-radius: 10px;
+  }
+
+  .shareButton {
+    cursor: pointer;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 45px;
+    left: 100px;
+    width: 0; 
+    height: 0; 
+    border-left: 24px solid transparent;
+    border-right: 24px solid transparent;
+    border-top: 24px solid #48556A;
+  }
+  
+}
